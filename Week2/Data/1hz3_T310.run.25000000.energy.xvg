@@ -1,15 +1,15 @@
-# This file was created Tue Sep 13 13:28:40 2022
+# This file was created Thu Sep 14 15:33:56 2023
 # Created by:
-#                      :-) GROMACS - gmx energy, 2020.4 (-:
+#                      :-) GROMACS - gmx energy, 2018.3 (-:
 # 
-# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
-# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
-# Working dir:  /scratch/projects/hockygroup/gmh4/projects/CompLab/comp-lab-class/Week2/Data
+# Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2023fa/students/xz4366/comp-lab-class-2023/Week2/Data
 # Command line:
 #   gmx_mpi energy -f 1hz3_T310.run.25000000.edr
 # gmx energy is part of G R O M A C S:
 #
-# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+# Giant Rising Ordinary Mutants for A Clerical Setup
 #
 @    title "GROMACS Energies"
 @    xaxis  label "Time (ps)"
