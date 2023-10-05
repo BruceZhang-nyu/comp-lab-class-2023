@@ -1,8 +1,8 @@
 ;
 ;	File 'topol.top' was generated
 ;	By user: xz4366 (4093817)
-;	On host: log-3
-;	At date: Thu Sep 28 15:12:05 2023
+;	On host: log-2
+;	At date: Sat Sep 30 17:38:14 2023
 ;
 ;	This is a standalone topology file
 ;
@@ -13,7 +13,7 @@
 ;	Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
 ;	Working dir:  /scratch/work/courses/CHEM-GA-2671-2023fa/students/xz4366/comp-lab-class-2023/Week3
 ;	Command line:
-;	  gmx_mpi pdb2gmx -f 1AKI_clean.pdb -o 1AKI_processed.gro -water spce
+;	  gmx_mpi pdb2gmx -f ./Data/1AKI_clean.pdb -o ./Data/1AKI_processed.gro -water spce
 ;	Force field was read from the standard GROMACS share directory.
 ;
 
@@ -18406,6 +18406,5 @@ LYSOZYME in water
 [ molecules ]
 ; Compound        #mols
 Protein_chain_A     1
-SOL             10644
-SOL             10644
-SOL             10644
+SOL         10636
+CL               8
