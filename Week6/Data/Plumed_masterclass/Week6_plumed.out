@@ -1,0 +1,106 @@
+WARNING: I cannot find /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/patches/ directory. Set PLUMED_ROOT or reinstall PLUMED
+
+
+DRIVER: Found molfile format trajectory xtc with name traj_comp.xtc
+PLUMED: PLUMED is starting
+PLUMED: Version: 2.7.0-dev (git: f3110b4e3) compiled on Oct 22 2020 at 15:05:46
+PLUMED: Please cite these papers when using PLUMED [1][2]
+PLUMED: For further information see the PLUMED web page at http://www.plumed.org
+PLUMED: Root: /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed
+PLUMED: For installed feature, see /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/src/config/config.txt
+PLUMED: Molecular dynamics engine: driver
+PLUMED: Precision of reals: 8
+PLUMED: Running over 1 node
+PLUMED: Number of threads: 1
+PLUMED: Cache line size: 512
+PLUMED: Number of atoms: 22
+PLUMED: File suffix: 
+PLUMED: FILE: ../plumed.dat
+PLUMED: Action MOLINFO
+PLUMED:   with label @0
+PLUMED:   pdb file named /home/xz4366/comp-lab-class-2023/Week6/Inputs/dialaA.pdb contains 1 chains 
+PLUMED:   chain named   contains residues 1 to 3 and atoms 1 to 22 
+PLUMED: Action TORSION
+PLUMED:   with label phi
+PLUMED:   between atoms 5 7 9 15
+PLUMED:   using periodic boundary conditions
+PLUMED: Action TORSION
+PLUMED:   with label psi
+PLUMED:   between atoms 7 9 15 17
+PLUMED:   using periodic boundary conditions
+PLUMED: Action PRINT
+PLUMED:   with label @3
+PLUMED:   with stride 10
+PLUMED:   with arguments phi psi
+PLUMED:   on file COLVAR
+PLUMED:   with format  %f
+PLUMED: END FILE: ../plumed.dat
+PLUMED: Timestep: 1.000000
+PLUMED: KbT has not been set by the MD engine
+PLUMED: It should be set by hand where needed
+PLUMED: Relevant bibliography:
+PLUMED:   [1] The PLUMED consortium, Nat. Methods 16, 670 (2019)
+PLUMED:   [2] Tribello, Bonomi, Branduardi, Camilloni, and Bussi, Comput. Phys. Commun. 185, 604 (2014)
+PLUMED: Please read and cite where appropriate!
+PLUMED: Finished setup
+PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
+PLUMED:                                                    1     1.475872     1.475872     1.475872     1.475872
+PLUMED: 1 Prepare dependencies                        100001     0.011414     0.000000     0.000000     0.000025
+PLUMED: 2 Sharing data                                100001     0.012508     0.000000     0.000000     0.001120
+PLUMED: 3 Waiting for data                            100001     0.261353     0.000003     0.000002     0.000379
+PLUMED: 4 Calculating (forward loop)                  100001     0.082109     0.000001     0.000000     0.000096
+PLUMED: 5 Applying (backward loop)                    100001     0.066815     0.000001     0.000000     0.000032
+PLUMED: 6 Update                                      100001     0.041554     0.000000     0.000000     0.010178
+WARNING: I cannot find /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/patches/ directory. Set PLUMED_ROOT or reinstall PLUMED
+
+
+DRIVER: Found molfile format trajectory xtc with name traj_comp.xtc
+PLUMED: PLUMED is starting
+PLUMED: Version: 2.7.0-dev (git: f3110b4e3) compiled on Oct 22 2020 at 15:05:46
+PLUMED: Please cite these papers when using PLUMED [1][2]
+PLUMED: For further information see the PLUMED web page at http://www.plumed.org
+PLUMED: Root: /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed
+PLUMED: For installed feature, see /scratch/work/hockygroup/software/plumed2-icc-Sept2020/lib/plumed/src/config/config.txt
+PLUMED: Molecular dynamics engine: driver
+PLUMED: Precision of reals: 8
+PLUMED: Running over 1 node
+PLUMED: Number of threads: 1
+PLUMED: Cache line size: 512
+PLUMED: Number of atoms: 22
+PLUMED: File suffix: 
+PLUMED: FILE: ../plumed.dat
+PLUMED: Action MOLINFO
+PLUMED:   with label @0
+PLUMED:   pdb file named /home/xz4366/comp-lab-class-2023/Week6/Inputs/dialaA.pdb contains 1 chains 
+PLUMED:   chain named   contains residues 1 to 3 and atoms 1 to 22 
+PLUMED: Action TORSION
+PLUMED:   with label phi
+PLUMED:   between atoms 5 7 9 15
+PLUMED:   using periodic boundary conditions
+PLUMED: Action TORSION
+PLUMED:   with label psi
+PLUMED:   between atoms 7 9 15 17
+PLUMED:   using periodic boundary conditions
+PLUMED: Action PRINT
+PLUMED:   with label @3
+PLUMED:   with stride 10
+PLUMED:   with arguments phi psi
+PLUMED:   on file COLVAR
+PLUMED:   with format  %f
+PLUMED: END FILE: ../plumed.dat
+PLUMED: Timestep: 1.000000
+PLUMED: KbT has not been set by the MD engine
+PLUMED: It should be set by hand where needed
+PLUMED: Relevant bibliography:
+PLUMED:   [1] The PLUMED consortium, Nat. Methods 16, 670 (2019)
+PLUMED:   [2] Tribello, Bonomi, Branduardi, Camilloni, and Bussi, Comput. Phys. Commun. 185, 604 (2014)
+PLUMED: Please read and cite where appropriate!
+PLUMED: Finished setup
+PLUMED:                                               Cycles        Total      Average      Minimum      Maximum
+PLUMED:                                                    1     1.577088     1.577088     1.577088     1.577088
+PLUMED: 1 Prepare dependencies                        100001     0.011753     0.000000     0.000000     0.000021
+PLUMED: 2 Sharing data                                100001     0.011458     0.000000     0.000000     0.000932
+PLUMED: 3 Waiting for data                            100001     0.264316     0.000003     0.000002     0.000959
+PLUMED: 4 Calculating (forward loop)                  100001     0.081529     0.000001     0.000000     0.000367
+PLUMED: 5 Applying (backward loop)                    100001     0.065321     0.000001     0.000000     0.000042
+PLUMED: 6 Update                                      100001     0.033919     0.000000     0.000000     0.001035
