@@ -1,0 +1,68 @@
+                      :-) GROMACS - gmx mdrun, 2019.6 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2019.6
+Executable:   /scratch/work/courses/CHEM-GA-2671-2022fa/software/gromacs-2019.6-plumedSept2020/bin/gmx_mpi
+Data prefix:  /scratch/work/courses/CHEM-GA-2671-2022fa/software/gromacs-2019.6-plumedSept2020
+Working dir:  /home/xz4366/comp-lab-class-2023/Week6/Data/2Dmetadynamics
+Command line:
+  gmx_mpi mdrun -s /home/xz4366/comp-lab-class-2023/Week6/Inputs/topolA.tpr -nsteps 10000000 -plumed plumed.dat
+
+
+Back Off! I just backed up md.log to ./#md.log.3#
+Reading file /home/xz4366/comp-lab-class-2023/Week6/Inputs/topolA.tpr, VERSION 4.6.7 (single precision)
+Note: file tpx version 83, software tpx version 116
+Overriding nsteps with value passed on the command line: 10000000 steps, 2e+04 ps
+
+Using 1 MPI process
+
+
+Non-default thread affinity set probably by the OpenMP library,
+disabling internal thread affinity
+
+NOTE: This file uses the deprecated 'group' cutoff_scheme. This will be
+removed in a future release when 'verlet' supports all interaction forms.
+
+
+Back Off! I just backed up traj_comp.xtc to ./#traj_comp.xtc.3#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.3#
+starting mdrun 'alanine dipeptide in vacuum'
+10000000 steps,  20000.0 ps.
+
+Writing final coordinates.
+
+Back Off! I just backed up confout.gro to ./#confout.gro.1#
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      383.548      383.549      100.0
+                 (ns/day)    (hour/ns)
+Performance:     4505.297        0.005
+
+GROMACS reminds you: "I Can't Shake It" (Dinosaur Jr)
+

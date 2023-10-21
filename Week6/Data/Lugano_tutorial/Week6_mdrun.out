@@ -60,9 +60,9 @@ Writing final coordinates.
 Back Off! I just backed up confout.gro to ./#confout.gro.1#
 
                Core t (s)   Wall t (s)        (%)
-       Time:      229.514      229.514      100.0
+       Time:      170.815      170.815      100.0
                  (ns/day)    (hour/ns)
-Performance:     3764.481        0.006
+Performance:     5058.111        0.005
 
-GROMACS reminds you: "Ramones For Ever" (P.J. Van Maaren)
+GROMACS reminds you: "Christianity may be OK between consenting adults in private but should not be taught to young children." (Francis Crick)
 
