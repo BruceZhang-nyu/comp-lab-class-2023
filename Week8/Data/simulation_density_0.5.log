@@ -167,20 +167,20 @@ Per MPI rank memory allocation (min/avg/max) = 3.053 | 3.053 | 3.053 Mbytes
      49000   2.9174156      0.27391806     0              3.1840401      3.915038     
      49500   2.9860584      0.24865894     0              3.2272522      3.6644342    
      50000   2.9954215      0.24107358     0              3.2290066      3.811802     
-Loop time of 1.34984 on 2 procs for 50000 steps with 400 atoms
+Loop time of 1.05012 on 2 procs for 50000 steps with 400 atoms
 
-Performance: 32003886.149 tau/day, 37041.535 timesteps/s, 14.817 Matom-step/s
-81.6% CPU use with 2 MPI tasks x 1 OpenMP threads
+Performance: 41138292.614 tau/day, 47613.765 timesteps/s, 19.046 Matom-step/s
+91.8% CPU use with 2 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.13342    | 0.18971    | 0.246      |  12.9 | 14.05
-Neigh   | 0.32366    | 0.36343    | 0.40321    |   6.6 | 26.92
-Comm    | 0.33301    | 0.42528    | 0.51756    |  14.2 | 31.51
-Output  | 0.0018842  | 0.0031015  | 0.0043187  |   2.2 |  0.23
-Modify  | 0.1843     | 0.22402    | 0.26374    |   8.4 | 16.60
-Other   |            | 0.1443     |            |       | 10.69
+Pair    | 0.13493    | 0.13501    | 0.1351     |   0.0 | 12.86
+Neigh   | 0.32453    | 0.3272     | 0.32987    |   0.5 | 31.16
+Comm    | 0.30834    | 0.31111    | 0.31388    |   0.5 | 29.63
+Output  | 0.0018153  | 0.0032924  | 0.0047695  |   2.6 |  0.31
+Modify  | 0.16552    | 0.16976    | 0.174      |   1.0 | 16.17
+Other   |            | 0.1037     |            |       |  9.88
 
 Nlocal:            200 ave         202 max         198 min
 Histogram: 1 0 0 0 0 0 0 0 0 1
@@ -416,20 +416,20 @@ Per MPI rank memory allocation (min/avg/max) = 3.088 | 3.088 | 3.088 Mbytes
     149000   0.12632129     0.0018306508   0              0.12783614     0.12798034   
     149500   0.11003062     0.0027694529   0              0.11252499     0.14545716   
     150000   0.1034166      0.0042649498   0              0.10742301     0.18317697   
-Loop time of 2.2378 on 2 procs for 100000 steps with 400 atoms
+Loop time of 1.68993 on 2 procs for 100000 steps with 400 atoms
 
-Performance: 38609372.768 tau/day, 44686.774 timesteps/s, 17.875 Matom-step/s
-83.2% CPU use with 2 MPI tasks x 1 OpenMP threads
+Performance: 51126322.758 tau/day, 59173.985 timesteps/s, 23.670 Matom-step/s
+94.3% CPU use with 2 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.23678    | 0.25898    | 0.28118    |   4.4 | 11.57
-Neigh   | 0.48523    | 0.52629    | 0.56735    |   5.7 | 23.52
-Comm    | 0.64088    | 0.71577    | 0.79066    |   8.9 | 31.99
-Output  | 0.08882    | 0.089553   | 0.090285   |   0.2 |  4.00
-Modify  | 0.39203    | 0.43127    | 0.47051    |   6.0 | 19.27
-Other   |            | 0.2159     |            |       |  9.65
+Pair    | 0.23728    | 0.2404     | 0.24353    |   0.6 | 14.23
+Neigh   | 0.47821    | 0.48006    | 0.48191    |   0.3 | 28.41
+Comm    | 0.42243    | 0.4229     | 0.42336    |   0.1 | 25.02
+Output  | 0.043801   | 0.044601   | 0.045402   |   0.4 |  2.64
+Modify  | 0.33993    | 0.34081    | 0.34169    |   0.2 | 20.17
+Other   |            | 0.1612     |            |       |  9.54
 
 Nlocal:            200 ave         203 max         197 min
 Histogram: 1 0 0 0 0 0 0 0 0 1
@@ -442,4 +442,4 @@ Total # of neighbors = 395
 Ave neighs/atom = 0.9875
 Neighbor list builds = 24735
 Dangerous builds = 0
-Total wall time: 0:00:03
+Total wall time: 0:00:02
